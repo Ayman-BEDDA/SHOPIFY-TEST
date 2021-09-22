@@ -1,0 +1,63 @@
+<div>
+
+    <h3> 
+        
+        {{ section.settings.user-name }} 
+
+    </h3>
+    
+    <img src="{{ section.settings.image  | img_url: '300x300' }}" alt="">
+
+    <p>
+        {{ section.settings.bio }}
+    </p>
+     
+
+</div>
+
+
+
+{% schema %}
+{
+    "name":"profile",
+
+    "settings": [
+    {
+      "type": "text",
+      "id": "user-name",
+      "label": "User name"
+    },
+    
+    {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+
+      {
+        "type": "richtext",
+        "id": "bio",
+        "label": "bio-user"
+      },
+
+      {
+        "type":"color",
+        "id":"color",
+        "label":"Couleur"
+
+      }
+
+
+
+  ],
+
+    "presets": [
+     {
+       "name": "Profill",
+       "category": "Custom Content"
+     }
+     ]
+
+     
+}
+{% endschema %}

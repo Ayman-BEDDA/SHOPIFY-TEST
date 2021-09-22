@@ -7,6 +7,31 @@
     "theme_documentation_url": "https:\/\/help.shopify.com\/manual\/using-themes\/themes-by-shopify\/debut",
     "theme_support_url": "https:\/\/support.shopify.com\/"
   },
+
+  {
+
+    "name":"Mini cart",
+    "settings":[
+
+        {
+          "type":"header",
+          "content":"Mini cart"
+
+
+        },
+
+        {
+          "type":"text",
+          "id":"test",
+          "label":"Test"
+        }
+
+        
+
+    ]
+
+  },
+
   {
     "name": {
       "cs": "Barvy",

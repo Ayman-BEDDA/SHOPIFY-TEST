@@ -3781,17 +3781,6 @@ hr {
     padding: 10px 11px; } }
 
 .site-header__cart-title,
-.site-header__search-title {
-  position: absolute !important;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  width: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0;
-  display: block;
-  vertical-align: middle; }
 
 .site-header__cart-title {
   margin-right: 3px; }
@@ -4221,10 +4210,7 @@ hr {
   padding-top: 55px; }
   .pagination li {
     display: inline-block; }
-  .pagination .icon {
-    display: block;
-    height: 20px;
-    vertical-align: middle; }
+  
 
 .pagination__text {
   padding: 0 27.5px; }
@@ -6996,3 +6982,7 @@ hr {
 
 .store-availability-list__phone {
   margin-bottom: 0; }
+
+
+
+@import "ayman.css";
